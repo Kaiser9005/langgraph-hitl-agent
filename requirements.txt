@@ -1,0 +1,4 @@
+# langgraph-hitl-agent — runtime deps
+# tiering.py has ZERO deps; these are only for agent.py / demo.py / server.py.
+langgraph>=0.2.0
+mcp>=1.2.0          # FastMCP (server.py only)
