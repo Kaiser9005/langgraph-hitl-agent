@@ -57,7 +57,7 @@ Tier 2, but a Tier 3 human approval can never be configured away.
 
 Generalized from the governance layer of a production agentic ERP (an AI assistant
 with 20+ governed write-actions). The companion repo
-[`agent-guardrails`](../agent-guardrails) is the framework-agnostic version of the
+[`agent-guardrails`](https://github.com/Kaiser9005/agent-guardrails) is the framework-agnostic version of the
 same idea (a decorator + audit trail, zero deps); this repo shows it wired into a
 real LangGraph control flow with `interrupt()`/checkpoint durability.
 
